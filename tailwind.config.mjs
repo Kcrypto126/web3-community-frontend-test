@@ -4,8 +4,11 @@ export default {
 	theme: {
 		extend: {
 			screens: {
-				sm: '425px',
-				xl: '375px',
+				xs: '375px',
+  				sm: '425px',
+  				md: '768px',
+				lg: '1024px',
+  				xl: '1280px',
 			},
 			fontFamily: {
 				/* Adobe Fonts (xtg2fqq) + Google fallback */
@@ -14,7 +17,8 @@ export default {
 				avant: ['"itc-avant-garde-gothic-pro"', 'system-ui', 'sans-serif'],
 				chakra: ['"chakra-petch"', '"Chakra Petch"', 'system-ui', 'sans-serif'],
 				patrick: ['"patrick-hand-sc"', '"Patrick Hand SC"', 'cursive'],
-				gochi: ['"patrick-hand-sc"', '"Patrick Hand SC"', 'cursive'],
+				gochi: ['"Gochi Hand"', 'cursive'],
+				itc: ['"ITC Avant Garde Gothic Pro"', 'sans-serif'],
 			},
 			colors: {
 				'lime': '#A7FF20',

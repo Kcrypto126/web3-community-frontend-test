@@ -20,23 +20,23 @@ import '../styles/global.css';
       rel="stylesheet"
     />
   </head>
-  <body class="min-h-screen bg-[#0E0E0E] font-chakra text-white antialiased">
+  <body class="min-h-screen bg-[#0E0E0E] font-chakra text-[#E4FAFB] antialiased">
     <main
-      class="mx-auto w-full lg:max-w-[1400px] px-[10px] py-[50px] sm:px-5 md:px-10 lg:px-5 md:py-[100px]"
+      class="mx-auto w-full lg:max-w-[1440px] px-[10px] py-[50px] sm:px-5 md:px-10 lg:px-5 md:py-[100px]"
     >
       <!-- FEATURED WORK Section -->
       <section class="relative border-b border-[#1C1F23] pb-[80px]">
         <p
-          class="mb-[30px] font-bold text-sm md:text-base text-[#454F5C] !leading-[100%] tracking-[14%]"
+          class="mb-[10px] font-bold text-sm md:text-base text-[#454F5C] !leading-[100%] tracking-[14%]"
         >
           // &nbsp;FEATURED WORK
         </p>
         <div
-          class="flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between justify-start"
+          class="flex !leading-[99%] flex-col gap-[25px] lg:gap-8 lg:flex-row lg:items-start lg:justify-between justify-start"
         >
           <div class="max-w-[796px] text-[#E4FAFB]">
             <h2
-              class="font-zcool flex items-start text-[50px] md:text-[80px] !leading-[100%] tracking-[0%] md:text-[80px] xl:text-[100px]"
+              class="font-zcool flex items-start text-[52px] md:text-[80px] !leading-[100%] tracking-[0%] xl:text-[100px] mr-[-8px]"
             >
               <span class="md:!text-[47px] hidden md:block mr-[30px] -mt-[10px]"
                 >//</span
@@ -81,7 +81,7 @@ import '../styles/global.css';
                 </div>
               </div>
               <!-- POWERED BY RAGEBITE column -->
-              <div id="logo-container">
+              <div class="flex justify-start lg:justify-end" id="logo-container">
                 <span
                   class="text-[40px] leading-[120%] font-zcool tracking-[0%] text-[#E4FAFB] md:text-[42px] xl:text-[50px]"
                   >PRODUCTS BUILT</span
@@ -92,71 +92,130 @@ import '../styles/global.css';
         </div>
         <a
           href="#contact"
-          class="flex w-full items-center justify-center mt-[80px] lg:justify-start"
+          class="block w-full mt-[50px] md:mt-[68px] xl:w-[500px]"
         >
-          <svg
-            width="17"
-            height="46"
-            viewBox="0 0 16 46"
-            fill="none"
-            class="border-none mr-[-1px]"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M4.82843 1.17157C5.57857 0.421428 6.59599 0 7.65685 0H16V46H7.65685C6.59599 46 5.57857 45.5786 4.82843 44.8284L1.17157 41.1716C0.421428 40.4214 0 39.404 0 38.3431V7.65685C0 6.59599 0.421427 5.57857 1.17157 4.82843L4.82843 1.17157Z"
-              fill="#99FF00"
-            />
-          </svg>
-
           <span
-            class="relative bg-[#99FF00] flex items-center justify-center font-chakra border-none h-[46px] w-full xl:max-w-[500px] md:w-full text-black text-[14px] font-bold uppercase tracking-[14%]"
-            >GET IN TOUCH</span
+            class="flex w-full  items-center justify-center lg:justify-start"
           >
-          <svg
-            width="17"
-            height="46"
-            viewBox="0 0 16 46"
-            class="border-none ml-[-1px]"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M4.17157 1.17157C3.42143 0.421429 2.40401 0 1.34315 0H0V46H8.34315C9.40401 46 10.4214 45.5786 11.1716 44.8284L14.8284 41.1716C15.5786 40.4214 16 39.404 16 38.3431V14.6569C16 13.596 15.5786 12.5786 14.8284 11.8284L4.17157 1.17157Z"
-              fill="#99FF00"
-            />
-          </svg>
+            <svg
+              width="17"
+              height="46"
+              viewBox="0 0 16 46"
+              fill="none"
+              class="shrink-0 border-none mr-[-1px]"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4.82843 1.17157C5.57857 0.421428 6.59599 0 7.65685 0H16V46H7.65685C6.59599 46 5.57857 45.5786 4.82843 44.8284L1.17157 41.1716C0.421428 40.4214 0 39.404 0 38.3431V7.65685C0 6.59599 0.421427 5.57857 1.17157 4.82843L4.82843 1.17157Z"
+                fill="#99FF00"
+              />
+            </svg>
+
+            <span
+              class="relative flex min-w-0 flex-1 w-full items-center justify-center bg-[#99FF00] font-chakra border-none h-[46px] text-black text-[12px] md:text-[14px] font-bold uppercase tracking-[14%] !leading-[100%]"
+              >GET IN TOUCH</span
+            >
+            <svg
+              width="17"
+              height="46"
+              viewBox="0 0 16 46"
+              class="shrink-0 border-none ml-[-1px]"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4.17157 1.17157C3.42143 0.421429 2.40401 0 1.34315 0H0V46H8.34315C9.40401 46 10.4214 45.5786 11.1716 44.8284L14.8284 41.1716C15.5786 40.4214 16 39.404 16 38.3431V14.6569C16 13.596 15.5786 12.5786 14.8284 11.8284L4.17157 1.17157Z"
+                fill="#99FF00"
+              />
+            </svg>
+          </span>
         </a>
         <!-- Product categories: 1×12 (≤md), 2×6 (md–xl), 3×4 (≥xl), flex + justify-between only -->
         <div
-          class="mt-[80px] flex flex-col gap-y-7 text-[22px] font-avant md:hidden"
+          class="mt-[50px] md:mt-[80px] flex flex-col gap-y-5 font-itc md:hidden"
         >
           <a
             href="#"
-            class="flex items-center lg:gap-11 md:gap-[10px] gap-11 text-white text-[22px] transition hover:text-lime tracking-[0%] !leading-[100%]"
+            class="flex items-center gap-[10px] text-[22px] transition hover:text-lime tracking-[0%] !leading-[100%]"
           >
-            <span>Digital Asset & Skins</span>
+            <span class="">Digital Asset & Skins</span>
             <img
               src="/assets/arrow.svg"
               alt="Arrow"
-              class="h-[13px] w-[13px]"
+              class="h-[15px] w-[15px]"
             />
           </a>
           <a
             href="#"
-            class="flex items-center md:gap-[10px] lg:gap-11 gap-11 text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
+            class="flex items-center gap-[10px] text-[22px] text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
           >
             <span>Tournament & League Platforms</span>
             <img
               src="/assets/arrow.svg"
               alt="Arrow"
-              class="h-[13px] w-[13px]"
+              class="mr-[-10px] ml-[-5px] sm:mr-0 sm:ml-0 h-[15px] w-[15px]"
             />
           </a>
           <a
             href="#"
-            class="flex items-center lg:gap-11 md:gap-[10px] gap-11 text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
+            class="flex items-center gap-[10px] text-[22px] text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
           >
-            <span>Gaming Marketplaces</span>
+            <span class="">Gaming Marketplaces</span>
+            <img
+              src="/assets/arrow.svg"
+              alt="Arrow"
+              class="h-[15px] w-[15px]"
+            />
+          </a>
+          <a
+            href="#"
+            class="flex items-center gap-[10px] text-[22px] text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
+          >
+            <span class="">Community & Fan Platforms</span>
+            <img
+              src="/assets/arrow.svg"
+              alt="Arrow"
+              class="h-[15px] w-[15px]"
+            />
+          </a>
+          <a
+            href="#"
+            class="flex items-center gap-[10px] text-[22px] text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
+          >
+            <span class="">iGaming Platforms</span>
+            <img
+              src="/assets/arrow.svg"
+              alt="Arrow"
+              class="h-[15px] w-[15px]"
+            />
+          </a>
+          <a
+            href="#"
+            class="flex items-center gap-[10px] text-[22px] text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
+          >
+            <span class="">Trading & Fintech Platforms</span>
+            <img
+              src="/assets/arrow.svg"
+              alt="Arrow"
+              class="h-[15px] w-[15px]"
+            />
+          </a>
+          <a
+            href="#"
+            class="flex items-center gap-[10px] text-[22px] text-[#E4FAFB] transition hover:text-lime tracking-tight !leading-[100%]"
+          >
+            <span class="">Marketplaces</span>
+            <img
+              src="/assets/arrow.svg"
+              alt="Arrow"
+              class="h-[15px] w-[15px]"
+            />
+          </a>
+          <a
+            href="#"
+            class="flex items-center gap-[10px] text-[22px] text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
+          >
+            <span class="">Betting & Analytics Tools</span>
             <img
               src="/assets/arrow.svg"
               alt="Arrow"
@@ -165,111 +224,196 @@ import '../styles/global.css';
           </a>
           <a
             href="#"
-            class="flex items-center lg:gap-11 md:gap-[10px] gap-11 text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
+            class="flex items-center gap-[10px] text-[22px] text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
           >
-            <span>Community & Fan Platforms</span>
+            <span class="">Coaching Platforms</span>
             <img
               src="/assets/arrow.svg"
               alt="Arrow"
-              class="h-[13px] w-[13px]"
+              class="h-[15px] w-[15px]"
             />
           </a>
           <a
             href="#"
-            class="flex items-center lg:gap-11 md:gap-[10px] gap-11 text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
+            class="flex items-center gap-[10px] text-[22px] text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
           >
-            <span>iGaming Platforms</span>
+            <span class="">Gamified SaaS Platforms</span>
             <img
               src="/assets/arrow.svg"
               alt="Arrow"
-              class="h-[13px] w-[13px]"
+              class="h-[15px] w-[15px]"
             />
           </a>
           <a
             href="#"
-            class="flex items-center lg:gap-11 md:gap-[10px] gap-11 text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
+            class="flex items-center gap-[10px] text-[22px] text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
           >
-            <span>Trading & Fintech Platforms</span>
+            <span class="">Educational Platforms</span>
             <img
               src="/assets/arrow.svg"
               alt="Arrow"
-              class="h-[13px] w-[13px]"
+              class="h-[15px] w-[15px]"
             />
           </a>
           <a
             href="#"
-            class="flex items-center lg:gap-11 md:gap-[10px] gap-11 text-white transition hover:text-lime tracking-tight !leading-[100%]"
+            class="flex items-center gap-[10px] text-[22px] text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
           >
-            <span>Marketplaces</span>
+            <span class="" >Web3 & Crypto Platforms</span>
             <img
               src="/assets/arrow.svg"
               alt="Arrow"
-              class="h-[13px] w-[13px]"
-            />
-          </a>
-          <a
-            href="#"
-            class="flex items-center lg:gap-11 md:gap-[10px] gap-11 text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
-          >
-            <span>Betting & Analytics Tools</span>
-            <img
-              src="/assets/arrow.svg"
-              alt="Arrow"
-              class="h-[13px] w-[13px]"
-            />
-          </a>
-          <a
-            href="#"
-            class="flex items-center lg:gap-11 md:gap-[10px] gap-11 text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
-          >
-            <span>Coaching Platforms</span>
-            <img
-              src="/assets/arrow.svg"
-              alt="Arrow"
-              class="h-[13px] w-[13px]"
-            />
-          </a>
-          <a
-            href="#"
-            class="flex items-center lg:gap-11 md:gap-[10px] gap-11 text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
-          >
-            <span>Gamified SaaS Platforms</span>
-            <img
-              src="/assets/arrow.svg"
-              alt="Arrow"
-              class="h-[13px] w-[13px]"
-            />
-          </a>
-          <a
-            href="#"
-            class="flex items-center lg:gap-11 md:gap-[10px] gap-11 text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
-          >
-            <span>Educational Platforms</span>
-            <img
-              src="/assets/arrow.svg"
-              alt="Arrow"
-              class="h-[13px] w-[13px]"
-            />
-          </a>
-          <a
-            href="#"
-            class="flex items-center lg:gap-11 md:gap-[10px] gap-11 text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
-          >
-            <span>Web3 & Crypto Platforms</span>
-            <img
-              src="/assets/arrow.svg"
-              alt="Arrow"
-              class="h-[13px] w-[13px]"
+              class="h-[15px] w-[15px]"
             />
           </a>
         </div>
         <div
-          class="mt-[80px] hidden md:flex xl:hidden justify-between text-[22px] font-avant"
+          class="mt-[80px] hidden md:flex xl:hidden justify-between text-[22px] font-itc"
         >
-          <div class="space-y-7">
+          <div class="space-y-5">
             <a
               href="#"
-              class="flex items-center gap-[10px] text-white text-[22px] transition hover:text-lime tracking-[0%] !leading-[100%]"
+              class="flex items-center gap-[10px] lg:gap-11 text-[#E4FAFB] text-[22px] transition hover:text-lime tracking-[0%] !leading-[100%]"
+            >
+              <span class="">Digital Asset & Skins</span>
+              <img
+                src="/assets/arrow.svg"
+                alt="Arrow"
+                class="h-[15px] w-[15px]"
+              />
+            </a>
+            <a
+              href="#"
+              class="flex items-center gap-[10px] lg:gap-11 text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
+            >
+              <span class="">Tournament & League Platforms</span>
+              <img
+                src="/assets/arrow.svg"
+                alt="Arrow"
+                class="h-[15px] w-[15px]"
+              />
+            </a>
+            <a
+              href="#"
+              class="flex items-center gap-[10px] lg:gap-11 text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
+            >
+              <span class="">Gaming Marketplaces</span>
+              <img
+                src="/assets/arrow.svg"
+                alt="Arrow"
+                class="h-[15px] w-[15px]"
+              />
+            </a>
+            <a
+              href="#"
+              class="flex items-center gap-[10px] lg:gap-11 text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
+            >
+              <span class="">Community & Fan Platforms</span>
+              <img
+                src="/assets/arrow.svg"
+                alt="Arrow"
+                class="h-[15px] w-[15px]"
+              />
+            </a>
+            <a
+              href="#"
+              class="flex items-center gap-[10px] lg:gap-11 text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
+            >
+              <span class="">Coaching Platforms</span>
+              <img
+                src="/assets/arrow.svg"
+                alt="Arrow"
+                class="h-[15px] w-[15px]"
+              />
+            </a>
+            <a
+              href="#"
+              class="flex items-center gap-[10px] lg:gap-11 text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
+            >
+              <span class="">Gamified SaaS Platforms</span>
+              <img
+                src="/assets/arrow.svg"
+                alt="Arrow"
+                class="h-[15px] w-[15px]"
+              />
+            </a>
+          </div>
+          <div class="space-y-5">
+            <a
+              href="#"
+              class="flex items-center gap-[10px] lg:gap-11 text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
+            >
+              <span class="">iGaming Platforms</span>
+              <img
+                src="/assets/arrow.svg"
+                alt="Arrow"
+                class="h-[15px] w-[15px]"
+              />
+            </a>
+            <a
+              href="#"
+              class="flex items-center gap-[10px] lg:gap-11 text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
+            >
+              <span class="">Trading & Fintech Platforms</span>
+              <img
+                src="/assets/arrow.svg"
+                alt="Arrow"
+                class="h-[15px] w-[15px]"
+              />
+            </a>
+            <a
+              href="#"
+              class="flex items-center gap-[10px] lg:gap-11 text-[#E4FAFB] transition hover:text-lime tracking-tight !leading-[100%]"
+            >
+              <span class="">Marketplaces</span>
+              <img
+                src="/assets/arrow.svg"
+                alt="Arrow"
+                class="h-[15px] w-[15px]"
+              />
+            </a>
+            <a
+              href="#"
+              class="flex items-center gap-[10px] lg:gap-11 text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
+            >
+              <span class="">Betting & Analytics Tools</span>
+              <img
+                src="/assets/arrow.svg"
+                alt="Arrow"
+                class="h-[15px] w-[15px]"
+              />
+            </a>
+            <a
+              href="#"
+              class="flex items-center gap-[10px] lg:gap-11 text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
+            >
+              <span class="">Educational Platforms</span>
+              <img
+                src="/assets/arrow.svg"
+                alt="Arrow"
+                class="h-[15px] w-[15px]"
+              />
+            </a>
+            <a
+              href="#"
+              class="flex items-center gap-[10px] lg:gap-11 text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
+            >
+              <span class="" >Web3 & Crypto Platforms</span>
+              <img
+                src="/assets/arrow.svg"
+                alt="Arrow"
+                class="h-[15px] w-[15px]"
+              />
+            </a>
+          </div>
+        </div>
+        <div
+          class="mt-[80px] hidden xl:flex justify-between text-[22px] font-itc"
+        >
+          <div class="space-y-5">
+            <a
+              href="#"
+              class="flex items-center gap-11 text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
             >
               <span>Digital Asset & Skins</span>
               <img
@@ -280,9 +424,9 @@ import '../styles/global.css';
             </a>
             <a
               href="#"
-              class="flex items-center gap-[10px] text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
+              class="flex items-center gap-11 text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
             >
-              <span>Tournament & League Platforms</span>
+              <span class="">Tournament & League Platforms</span>
               <img
                 src="/assets/arrow.svg"
                 alt="Arrow"
@@ -291,9 +435,9 @@ import '../styles/global.css';
             </a>
             <a
               href="#"
-              class="flex items-center gap-[10px] text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
+              class="flex items-center gap-11 text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
             >
-              <span>Gaming Marketplaces</span>
+              <span class="">Gaming Marketplaces</span>
               <img
                 src="/assets/arrow.svg"
                 alt="Arrow"
@@ -302,31 +446,9 @@ import '../styles/global.css';
             </a>
             <a
               href="#"
-              class="flex items-center gap-[10px] text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
+              class="flex items-center gap-11 text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
             >
-              <span>Community & Fan Platforms</span>
-              <img
-                src="/assets/arrow.svg"
-                alt="Arrow"
-                class="h-[13px] w-[13px]"
-              />
-            </a>
-            <a
-              href="#"
-              class="flex items-center gap-[10px] text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
-            >
-              <span>Coaching Platforms</span>
-              <img
-                src="/assets/arrow.svg"
-                alt="Arrow"
-                class="h-[13px] w-[13px]"
-              />
-            </a>
-            <a
-              href="#"
-              class="flex items-center gap-[10px] text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
-            >
-              <span>Gamified SaaS Platforms</span>
+              <span class="">Community & Fan Platforms</span>
               <img
                 src="/assets/arrow.svg"
                 alt="Arrow"
@@ -334,12 +456,12 @@ import '../styles/global.css';
               />
             </a>
           </div>
-          <div class="space-y-7">
+          <div class="space-y-5">
             <a
               href="#"
-              class="flex items-center gap-[10px] text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
+              class="flex items-center gap-11 text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
             >
-              <span>iGaming Platforms</span>
+              <span class="">iGaming Platforms</span>
               <img
                 src="/assets/arrow.svg"
                 alt="Arrow"
@@ -348,9 +470,9 @@ import '../styles/global.css';
             </a>
             <a
               href="#"
-              class="flex items-center gap-[10px] text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
+              class="flex items-center gap-11 text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
             >
-              <span>Trading & Fintech Platforms</span>
+              <span class="">Trading & Fintech Platforms</span>
               <img
                 src="/assets/arrow.svg"
                 alt="Arrow"
@@ -359,9 +481,9 @@ import '../styles/global.css';
             </a>
             <a
               href="#"
-              class="flex items-center gap-[10px] text-white transition hover:text-lime tracking-tight !leading-[100%]"
+              class="flex items-center gap-11 text-[#E4FAFB] transition hover:text-lime tracking-tight !leading-[100%]"
             >
-              <span>Marketplaces</span>
+              <span class="">Marketplaces</span>
               <img
                 src="/assets/arrow.svg"
                 alt="Arrow"
@@ -370,31 +492,9 @@ import '../styles/global.css';
             </a>
             <a
               href="#"
-              class="flex items-center gap-[10px] text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
+              class="flex items-center gap-11 text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
             >
-              <span>Betting & Analytics Tools</span>
-              <img
-                src="/assets/arrow.svg"
-                alt="Arrow"
-                class="h-[13px] w-[13px]"
-              />
-            </a>
-            <a
-              href="#"
-              class="flex items-center gap-[10px] text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
-            >
-              <span>Educational Platforms</span>
-              <img
-                src="/assets/arrow.svg"
-                alt="Arrow"
-                class="h-[13px] w-[13px]"
-              />
-            </a>
-            <a
-              href="#"
-              class="flex items-center gap-[10px] text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
-            >
-              <span>Web3 & Crypto Platforms</span>
+              <span class="">Betting & Analytics Tools</span>
               <img
                 src="/assets/arrow.svg"
                 alt="Arrow"
@@ -402,16 +502,12 @@ import '../styles/global.css';
               />
             </a>
           </div>
-        </div>
-        <div
-          class="mt-[80px] hidden xl:flex justify-between text-[22px] font-avant"
-        >
-          <div class="space-y-7">
+          <div class="space-y-5">
             <a
               href="#"
-              class="flex items-center gap-11 text-white text-[22px] transition hover:text-lime tracking-[0%] !leading-[100%]"
+              class="flex items-center gap-11 text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
             >
-              <span>Digital Asset & Skins</span>
+              <span class="">Coaching Platforms</span>
               <img
                 src="/assets/arrow.svg"
                 alt="Arrow"
@@ -420,9 +516,9 @@ import '../styles/global.css';
             </a>
             <a
               href="#"
-              class="flex items-center gap-11 text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
+              class="flex items-center gap-11 text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
             >
-              <span>Tournament & League Platforms</span>
+              <span class="">Gamified SaaS Platforms</span>
               <img
                 src="/assets/arrow.svg"
                 alt="Arrow"
@@ -431,9 +527,9 @@ import '../styles/global.css';
             </a>
             <a
               href="#"
-              class="flex items-center gap-11 text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
+              class="flex items-center gap-11 text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
             >
-              <span>Gaming Marketplaces</span>
+              <span class="">Educational Platforms</span>
               <img
                 src="/assets/arrow.svg"
                 alt="Arrow"
@@ -442,101 +538,9 @@ import '../styles/global.css';
             </a>
             <a
               href="#"
-              class="flex items-center gap-11 text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
+              class="flex items-center gap-11 text-[#E4FAFB] transition hover:text-lime tracking-[0%] !leading-[100%]"
             >
-              <span>Community & Fan Platforms</span>
-              <img
-                src="/assets/arrow.svg"
-                alt="Arrow"
-                class="h-[13px] w-[13px]"
-              />
-            </a>
-          </div>
-          <div class="space-y-7">
-            <a
-              href="#"
-              class="flex items-center gap-11 text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
-            >
-              <span>iGaming Platforms</span>
-              <img
-                src="/assets/arrow.svg"
-                alt="Arrow"
-                class="h-[13px] w-[13px]"
-              />
-            </a>
-            <a
-              href="#"
-              class="flex items-center gap-11 text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
-            >
-              <span>Trading & Fintech Platforms</span>
-              <img
-                src="/assets/arrow.svg"
-                alt="Arrow"
-                class="h-[13px] w-[13px]"
-              />
-            </a>
-            <a
-              href="#"
-              class="flex items-center gap-11 text-white transition hover:text-lime tracking-tight !leading-[100%]"
-            >
-              <span>Marketplaces</span>
-              <img
-                src="/assets/arrow.svg"
-                alt="Arrow"
-                class="h-[13px] w-[13px]"
-              />
-            </a>
-            <a
-              href="#"
-              class="flex items-center gap-11 text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
-            >
-              <span>Betting & Analytics Tools</span>
-              <img
-                src="/assets/arrow.svg"
-                alt="Arrow"
-                class="h-[13px] w-[13px]"
-              />
-            </a>
-          </div>
-          <div class="space-y-7">
-            <a
-              href="#"
-              class="flex items-center gap-11 text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
-            >
-              <span>Coaching Platforms</span>
-              <img
-                src="/assets/arrow.svg"
-                alt="Arrow"
-                class="h-[13px] w-[13px]"
-              />
-            </a>
-            <a
-              href="#"
-              class="flex items-center gap-11 text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
-            >
-              <span>Gamified SaaS Platforms</span>
-              <img
-                src="/assets/arrow.svg"
-                alt="Arrow"
-                class="h-[13px] w-[13px]"
-              />
-            </a>
-            <a
-              href="#"
-              class="flex items-center gap-11 text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
-            >
-              <span>Educational Platforms</span>
-              <img
-                src="/assets/arrow.svg"
-                alt="Arrow"
-                class="h-[13px] w-[13px]"
-              />
-            </a>
-            <a
-              href="#"
-              class="flex items-center gap-11 text-white transition hover:text-lime tracking-[0%] !leading-[100%]"
-            >
-              <span>Web3 & Crypto Platforms</span>
+              <span class="">Web3 & Crypto Platforms</span>
               <img
                 src="/assets/arrow.svg"
                 alt="Arrow"
@@ -549,64 +553,56 @@ import '../styles/global.css';
 
       <!-- GAMING DNA Section -->
       <section
-        class="relative flex flex-col gap-12 justify-between lg:flex-row lg:items-center lg:gap-16 pt-[60px]"
+        class="relative flex flex-col gap-1 justify-between md:flex-row md:items-center xl:ml-[-10px] lg:ml-[-20px] pt-[60px]"
       >
-        <!-- 3D Pill graphic - add pill.png to public/assets -->
-        <div class="order-2 lg:order-1" id="pill-container">
+        <!-- 3D Pill graphic (primary) -->
           <video
             src="/assets/pill.webm"
-            alt="GAMING DNA - RAGEBITE"
-            class="h-[712px] object-cover"
+            type="video/webm"
+            aria-label="GAMING DNA - RAGEBITE"
+            class="min-w-0 flex-1 xl:max-w-[712px] max-w-[254px] sm:max-w-[325px] md:max-w-[431px] lg:max-w-[543px] object-fill"
             id="pill-img"
             autoplay
             loop
             muted
             playsinline
-          ></video>
-          <div
-            class="hidden min-h-[256px] flex flex-col items-center justify-center rounded-2xl border border-white/10 bg-white/5 py-16 lg:min-h-[320px]"
-            id="pill-fallback"
           >
-            <span class="font-zcool text-2xl text-lime">GAMING DNA</span>
-            <p class="mt-2 text-sm text-neutral-500">
-              Add pill.png to public/assets
-            </p>
-          </div>
-        </div>
-        <div class="order-1 lg:order-2 max-w-[667px]">
+          </video>
+        <div class="flex-1 md:max-w-[318px] lg:max-w-[667px] ">
           <p
-            class="mb-[30px] text-4 text-chakra text-[#E4FAFB] leading-[100%] tracking-[14%]"
+            class="mb-[23px] text-4 text-chakra font-bold text-[#E4FAFB] leading-[100%] tracking-[14%]"
           >
             // &nbsp;GAMING DNA
           </p>
           <h2
-            class="font-zcool leading-[83%] mb-[30px] text-[40px] tracking-[0%] md:text-[40px] lg:text-[100px]"
+            class="font-zcool leading-[83%] mb-[23px] text-[60px] tracking-[0%] lg:text-[80px] xl:text-[100px]"
           >
             We build with <br />a gaming mindset
           </h2>
-          <div class="flex gap-[20px] items-start">
+          <div class="flex gap-[20px] items-start md:w-[300px] lg:w-[460px] xl:w-full">
             <img
               src="/assets/quote.svg"
               alt="Quote"
-              class="w-[44px] h-[43px] mt-[7px]"
+              class="w-[44px] h-[43px] mt-[7px] hidden xl:block"
             />
             <div class="flex flex-col gap-[30px]">
               <p
-                class="italic text-avant text-[18px] leading-[150%] font-bold text-[#E4FAFB] tracking-[0%]"
+                class="italic text-itc text-[18px] leading-[150%] font-bold text-[#E4FAFB] tracking-[0%]"
               >
                 We grew up building esports and gaming platforms where
                 engagement is non-negotiable. That mindset still drives how we
-                design and build products today.
+                design and build products today.<br class="lg:block hidden xl:hidden" />
+                <br class="lg:block hidden xl:hidden" />
               </p>
               <a
                 href="#history"
-                class="inline-flex items-center gap-2 font-chakra text-[14px] leading-[100%] font-bold uppercase tracking-[14%] text-[#99FF00]"
+                class="inline-flex items-center gap-2 font-chakra text-[14px] w-[310px] leading-[100%] font-bold uppercase tracking-[14%] text-[#99FF00]"
               >
                 LEARN MORE ABOUT OUR HISTORY
                 <img
                   src="/assets/left-arrow.svg"
                   alt="Arrow"
-                  class="h-[8px] w-[8px]"
+                  class="h-[13px] w-[13px]"
                 />
               </a>
             </div>
